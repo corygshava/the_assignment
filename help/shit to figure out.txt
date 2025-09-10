@@ -1,0 +1,28 @@
+shit to figure out
+	read an excel file (csv maybe but lets assume others too)
+		if csv just use the php library (PHPExcel / phpspreadsheet)
+	turn that data into an array
+	do array ops on it (get bday)
+	send email to HR members (basically pick who's in HR and sends them an email of the person's deets)
+	make an interface to view the bdays (my specialty)
+	make a cron job that runs daily (or if it cant be recurrent we can make it be a self calling code)
+
+
+shit to do
+	upload excel file
+	parse excel serverside
+	compares curdate with the fetched data
+	send email (phpmailer via smtp)
+	view for showing upcoming birthdays
+	automate with cron jobs to run daily
+
+
+tools we need
+	phpexcel or phpspreadsheet
+	cron jobs (whatever tools can do that without freaking out the server)
+	shell_exec command in php
+	phpmailer
+
+proposed plan
+	r&d on how to use the tools 		- ~1 day
+	implement simple logic on how the tools can work

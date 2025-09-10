@@ -1,0 +1,17 @@
+nothing
+
+class result format : [success => true,result => (the result)]
+
+class 
+	phpmailer -> recieve email from controller, return result (successful or not)
+	excel reader -> recieve file, process it and return json
+
+controller
+	send_mail($email)
+	read_excel($file) -> sends to model
+	update_view
+
+view
+	uploading
+	viewing
+		CRUD (maybe)
